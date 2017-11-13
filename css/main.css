@@ -1,0 +1,41 @@
+/* <!-- general aspects --> */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* <!-- button html--> */
+button {
+    width: 80px;
+}
+
+/* <!-- drop down menu options html--> */
+nav {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li:hover {
+    background: lightgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/* <!-- enabled & disabled menu js--> */
+.enabled-menu {
+    display: block; /*show menu elements*/
+}
+
+.disabled-menu {
+    display: none; /*hide menu elements*/
+}
